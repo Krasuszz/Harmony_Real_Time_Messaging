@@ -1,0 +1,451 @@
+{
+    "document": {
+        "VisualVersion": "12",
+        "type": "ETS"
+    },
+    "visualModel": {
+        "dataType": "VisualModel",
+        "value": {
+            "property": {
+                "dataType": "Map",
+                "value": {
+                    "width": "100%",
+                    "height": "100%"
+                }
+            },
+            "dynamicProperty": {
+                "dataType": "Map",
+                "value": {}
+            },
+            "children": [
+                {
+                    "dataType": "VisualModel",
+                    "value": {
+                        "property": {
+                            "dataType": "Map",
+                            "value": {
+                                "width": "100%",
+                                "height": "100%",
+                                "justify-content-rc": "center",
+                                "background-color": "#150f0f",
+                                "opacity": "1"
+                            }
+                        },
+                        "dynamicProperty": {
+                            "dataType": "Map",
+                            "value": {}
+                        },
+                        "children": [
+                            {
+                                "dataType": "VisualModel",
+                                "value": {
+                                    "mediaProperty": {
+                                        "dataType": "Map",
+                                        "value": {
+                                            "(device-type: phone) and (orientation: portrait)": {
+                                                "dataType": "Map",
+                                                "value": {
+                                                    "render-mode": "original"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "dynamicMediaProperty": {
+                                        "dataType": "Map",
+                                        "value": {
+                                            "(device-type: phone) and (orientation: portrait)": {
+                                                "dataType": "Map",
+                                                "value": {}
+                                            }
+                                        }
+                                    },
+                                    "property": {
+                                        "dataType": "Map",
+                                        "value": {
+                                            "width": "150vp",
+                                            "height": "150vp"
+                                        }
+                                    },
+                                    "dynamicProperty": {
+                                        "dataType": "Map",
+                                        "value": {}
+                                    },
+                                    "children": [],
+                                    "id": "image1",
+                                    "type": "image"
+                                }
+                            },
+                            {
+                                "dataType": "VisualModel",
+                                "value": {
+                                    "mediaProperty": {
+                                        "dataType": "Map",
+                                        "value": {
+                                            "(device-type: phone) and (orientation: landscape)": {
+                                                "dataType": "Map",
+                                                "value": {
+                                                    "width": "45%"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "dynamicMediaProperty": {
+                                        "dataType": "Map",
+                                        "value": {
+                                            "(device-type: phone) and (orientation: landscape)": {
+                                                "dataType": "Map",
+                                                "value": {}
+                                            }
+                                        }
+                                    },
+                                    "property": {
+                                        "dataType": "Map",
+                                        "value": {
+                                            "width": "90%",
+                                            "height": "150vp",
+                                            "border-radius": "5vp",
+                                            "border-width": "1vp",
+                                            "background-color": "rgba(255,60,60,0.11)",
+                                            "justify-content-rc": "center",
+                                            "border-color": "rgba(255,60,60,0.7)"
+                                        }
+                                    },
+                                    "dynamicProperty": {
+                                        "dataType": "Map",
+                                        "value": {}
+                                    },
+                                    "children": [
+                                        {
+                                            "dataType": "VisualModel",
+                                            "value": {
+                                                "property": {
+                                                    "dataType": "Map",
+                                                    "value": {
+                                                        "width": "100%",
+                                                        "height": "40vp",
+                                                        "justify-content-rc": "center"
+                                                    }
+                                                },
+                                                "dynamicProperty": {
+                                                    "dataType": "Map",
+                                                    "value": {}
+                                                },
+                                                "children": [
+                                                    {
+                                                        "dataType": "VisualModel",
+                                                        "value": {
+                                                            "propertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "dynamicPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {
+                                                                    "content": "\"Account\""
+                                                                }
+                                                            },
+                                                            "mediaPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "dynamicMediaPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "property": {
+                                                                "dataType": "Map",
+                                                                "value": {
+                                                                    "height": "30vp",
+                                                                    "width": "100vp",
+                                                                    "font-size": "20fp",
+                                                                    "font-weight": "bold",
+                                                                    "text-align": "start",
+                                                                    "content": "Account",
+                                                                    "font-color": "#ff3c3c"
+                                                                }
+                                                            },
+                                                            "dynamicProperty": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "children": [],
+                                                            "id": "text1",
+                                                            "type": "text"
+                                                        }
+                                                    },
+                                                    {
+                                                        "dataType": "VisualModel",
+                                                        "value": {
+                                                            "property": {
+                                                                "dataType": "Map",
+                                                                "value": {
+                                                                    "height": "30vp",
+                                                                    "width": "200vp",
+                                                                    "background-color": "rgba(255,149,149,0.14)",
+                                                                    "border-radius": "4vp",
+                                                                    "textInput-type": "Normal",
+                                                                    "border-width": "0",
+                                                                    "onChange": "this.change_account"
+                                                                }
+                                                            },
+                                                            "dynamicProperty": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "children": [],
+                                                            "id": "text-input1",
+                                                            "type": "text-input"
+                                                        }
+                                                    }
+                                                ],
+                                                "id": "row1",
+                                                "type": "row"
+                                            }
+                                        },
+                                        {
+                                            "dataType": "VisualModel",
+                                            "value": {
+                                                "property": {
+                                                    "dataType": "Map",
+                                                    "value": {
+                                                        "width": "100%",
+                                                        "height": "40vp",
+                                                        "justify-content-rc": "center",
+                                                        "border-style": "solid",
+                                                        "opacity": "1"
+                                                    }
+                                                },
+                                                "dynamicProperty": {
+                                                    "dataType": "Map",
+                                                    "value": {}
+                                                },
+                                                "children": [
+                                                    {
+                                                        "dataType": "VisualModel",
+                                                        "value": {
+                                                            "propertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "dynamicPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {
+                                                                    "content": "Password"
+                                                                }
+                                                            },
+                                                            "mediaPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "dynamicMediaPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "property": {
+                                                                "dataType": "Map",
+                                                                "value": {
+                                                                    "height": "30vp",
+                                                                    "width": "100vp",
+                                                                    "font-size": "20fp",
+                                                                    "font-weight": "bold",
+                                                                    "text-align": "start",
+                                                                    "font-color": "#ff3c3c",
+                                                                    "content": "Password"
+                                                                }
+                                                            },
+                                                            "dynamicProperty": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "children": [],
+                                                            "id": "text2",
+                                                            "type": "text"
+                                                        }
+                                                    },
+                                                    {
+                                                        "dataType": "VisualModel",
+                                                        "value": {
+                                                            "propertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "dynamicPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "mediaPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "dynamicMediaPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "property": {
+                                                                "dataType": "Map",
+                                                                "value": {
+                                                                    "height": "30vp",
+                                                                    "width": "200vp",
+                                                                    "background-color": "rgba(255,149,149,0.14)",
+                                                                    "textInput-type": "Password",
+                                                                    "border-radius": "4vp",
+                                                                    "onChange": "this.change_password"
+                                                                }
+                                                            },
+                                                            "dynamicProperty": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "children": [],
+                                                            "id": "text-input2",
+                                                            "type": "text-input"
+                                                        }
+                                                    }
+                                                ],
+                                                "id": "row2",
+                                                "type": "row"
+                                            }
+                                        },
+                                        {
+                                            "dataType": "VisualModel",
+                                            "value": {
+                                                "property": {
+                                                    "dataType": "Map",
+                                                    "value": {
+                                                        "width": "100%",
+                                                        "height": "50vp",
+                                                        "justify-content-rc": "center",
+                                                        "space": "0",
+                                                        "align-items-row": "flex-end",
+                                                        "left": "0",
+                                                        "top": "0"
+                                                    }
+                                                },
+                                                "dynamicProperty": {
+                                                    "dataType": "Map",
+                                                    "value": {}
+                                                },
+                                                "children": [
+                                                    {
+                                                        "dataType": "VisualModel",
+                                                        "value": {
+                                                            "propertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "dynamicPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {
+                                                                    "label": "Assign"
+                                                                }
+                                                            },
+                                                            "mediaPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "dynamicMediaPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "property": {
+                                                                "dataType": "Map",
+                                                                "value": {
+                                                                    "width": "150vp",
+                                                                    "height": "33vp",
+                                                                    "left": "-5vp",
+                                                                    "top": "0px",
+                                                                    "align": "center",
+                                                                    "opacity": "1",
+                                                                    "border-radius": "5vp",
+                                                                    "border-style": "solid",
+                                                                    "type": "normal",
+                                                                    "font-color": "#ff3c3c",
+                                                                    "background-color": "rgba(255,60,60,0.19)",
+                                                                    "border-color": "#ff3c3c",
+                                                                    "border-width": "2vp",
+                                                                    "font-style": "normal",
+                                                                    "label": "Assign",
+                                                                    "onClick": "this.assign"
+                                                                }
+                                                            },
+                                                            "dynamicProperty": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "children": [],
+                                                            "id": "button1",
+                                                            "type": "button"
+                                                        }
+                                                    },
+                                                    {
+                                                        "dataType": "VisualModel",
+                                                        "value": {
+                                                            "propertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "dynamicPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "mediaPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "dynamicMediaPropertyStorage": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "property": {
+                                                                "dataType": "Map",
+                                                                "value": {
+                                                                    "width": "150vp",
+                                                                    "height": "33vp",
+                                                                    "left": "5vp",
+                                                                    "type": "normal",
+                                                                    "border-radius": "5vp",
+                                                                    "label": "Login",
+                                                                    "background-color": "#ff3c3c",
+                                                                    "onClick": "this.login"
+                                                                }
+                                                            },
+                                                            "dynamicProperty": {
+                                                                "dataType": "Map",
+                                                                "value": {}
+                                                            },
+                                                            "children": [],
+                                                            "id": "button2",
+                                                            "type": "button"
+                                                        }
+                                                    }
+                                                ],
+                                                "id": "row3",
+                                                "type": "row"
+                                            }
+                                        }
+                                    ],
+                                    "id": "column2",
+                                    "type": "column"
+                                }
+                            }
+                        ],
+                        "id": "column1",
+                        "type": "column"
+                    }
+                }
+            ],
+            "id": "wrapper",
+            "type": "column"
+        }
+    },
+    "formData": {
+        "data": {
+            "dataType": "Map",
+            "value": {}
+        },
+        "actions": {
+            "dataType": "Map",
+            "value": {}
+        }
+    }
+}
